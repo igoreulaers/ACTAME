@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 160" role="img" aria-label="Stacked and documented spatial data layers">
+  <rect width="300" height="160" fill="#eef4f8"/>
+  <g stroke="#0d74a3" stroke-width="1.6">
+    <path d="M78 116 L150 88 L222 116 L150 144 Z" fill="#ffffff"/>
+    <path d="M78 92 L150 64 L222 92 L150 120 Z" fill="#dce8f0"/>
+    <path d="M78 68 L150 40 L222 68 L150 96 Z" fill="#ffffff"/>
+  </g>
+  <g fill="#1a5c2a" fill-opacity="0.35" stroke="#1a5c2a" stroke-width="1.2">
+    <path d="M126 60 L156 50 L172 64 L142 76 Z"/>
+  </g>
+  <g stroke="#9db6c6" stroke-width="1.6" stroke-linecap="round">
+    <path d="M236 52 H278 M236 62 H268 M236 72 H274"/>
+  </g>
+  <g stroke="#0d74a3" stroke-width="1.6" stroke-linecap="round">
+    <path d="M22 52 H64 M22 62 H50"/>
+  </g>
+</svg>

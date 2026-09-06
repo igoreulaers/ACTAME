@@ -1,0 +1,48 @@
+---
+title: "Outputs"
+subtitle: "Reports, meetings and publications from the project"
+description-meta: >
+  Reports, conference sessions, presentations and publications from the joint
+  PAME/CAFF project developing the ACTAME planning tool.
+---
+
+Project outputs are collected here as they appear. Software releases are listed
+separately on the [Tools](tools.qmd) page.
+
+## Reports and deliverables
+
+| Year | Output | Type |
+|---|---|---|
+| *2026* | *Phase 1 — horizon scan and scoping report* | *Project deliverable · in preparation* |
+
+: {tbl-colwidths="[10,62,28]"}
+
+## Meetings and presentations
+
+| Date | Occasion | Contribution |
+|---|---|---|
+| *2026* | *PAME MPA-EG meeting* | *Project update* |
+
+: {tbl-colwidths="[14,50,36]"}
+
+## Peer-reviewed publications
+
+*None yet — publications arising from the project will be listed here with
+their DOIs.*
+
+## How to cite
+
+Until a citable release is published, please cite the tool as:
+
+> Eulaers, I. (2026). *ACTAME: Arctic Conservation Tool for Area-based Measures
+> and Ecosystems* (version 0.1.0) [Software]. Norwegian Polar Institute, for the
+> joint PAME/CAFF project. <https://github.com/igoreulaers/PAME_MPA_EG_map>
+
+Individual spatial layers should be cited to their original sources, which are
+recorded per layer in the Atlas and Metadata components of the dashboard.
+
+::: {.status-note}
+**Placeholder.** The tables above are scaffolds with example rows in italics.
+Replace them as outputs appear — edit `publications.qmd` in the site
+repository.
+:::

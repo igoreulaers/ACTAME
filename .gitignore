@@ -1,0 +1,14 @@
+# Quarto
+/.quarto/
+/_site/
+*_files/
+*_cache/
+
+# macOS
+.DS_Store
+
+# Editors
+.Rproj.user/
+.Rhistory
+.RData
+.vscode/

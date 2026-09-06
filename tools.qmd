@@ -1,0 +1,46 @@
+---
+title: "Tools"
+subtitle: "What the project is building, and where to find it"
+description-meta: >
+  The tools developed by the ACTAME project — dashboards, data portals and
+  spatial planning applications for Arctic area-based conservation.
+listing:
+  id: actame-tools
+  contents: tools.yml
+  type: grid
+  grid-columns: 3
+  image-height: 150px
+  fields: [image, title, subtitle, description, categories]
+  categories: true
+  max-description-length: 220
+  sort: "date desc"
+  sort-ui: false
+  filter-ui: false
+  field-display-names:
+    subtitle: ""
+---
+
+The project develops its tools in the open. Each one is listed below with its
+current status: **live** and usable, **in development**, or **planned** for a
+later phase. Cards link through to the repository or the running application.
+
+::: {#actame-tools}
+:::
+
+## Using and citing the tools
+
+All ACTAME tools are released under open licences and can be run locally or
+reached through the links above. Each repository carries its own installation
+instructions, and layers used in the tools are credited to their sources in the
+Atlas and Metadata components.
+
+If you use a tool or its underlying layers in your own work, please cite the
+project — see [Outputs](publications.qmd) for the current citation.
+
+::: {.status-note}
+**Adding a tool.** This page is generated from `tools.yml` in the site
+repository. Adding a new tool means adding one entry to that file — title,
+short description, link, status tags and an optional thumbnail in `assets/` —
+and committing. The card appears on the next build; nothing else needs to
+change.
+:::

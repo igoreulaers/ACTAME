@@ -1,0 +1,84 @@
+---
+title: "Team & partners"
+subtitle: "Who develops ACTAME, and under whose mandate"
+description-meta: >
+  The team behind the ACTAME pan-Arctic area-based conservation planning tool
+  and the Arctic Council working groups and institutions partnering on it.
+---
+
+## Mandate
+
+ACTAME is developed as a joint project of two Arctic Council working groups:
+
+- the **Protection of the Arctic Marine Environment (PAME)** working group,
+  through its **Marine Protected Areas Expert Group (MPA-EG)**, and
+- the **Conservation of Arctic Flora and Fauna (CAFF)** working group.
+
+The project runs from 2025 to 2027 and is **led by the Norwegian Polar
+Institute (NPI)**.
+
+## Project team
+
+| Name | Role | Institution |
+|---|---|---|
+| Igor Eulaers | Project lead; tool development | Norwegian Polar Institute |
+| *To be added* | *Role* | *Institution* |
+| *To be added* | *Role* | *Institution* |
+
+: {tbl-colwidths="[32,38,30]"}
+
+::: {.status-note}
+**Placeholder.** The team table above is a scaffold — add rows for the MPA-EG
+and CAFF contributors, national representatives and technical collaborators as
+their participation is confirmed. Edit `team.qmd` in the site repository.
+:::
+
+## Expert group and national participation
+
+The MPA-EG brings together representatives of the Arctic States and Permanent
+Participants, with observers from Arctic and international organisations. The
+scoping and review of the layers assembled in ACTAME takes place through that
+group, so that the tool reflects what its users — national authorities and the
+working groups themselves — need it to answer.
+
+*A list of contributing experts and their institutions will be added here.*
+
+## Partners
+
+::: {.partner-row}
+::: {.partner-placeholder}
+**PAME**<br>Protection of the Arctic<br>Marine Environment
+:::
+
+::: {.partner-placeholder}
+**CAFF**<br>Conservation of Arctic<br>Flora and Fauna
+:::
+
+::: {.partner-placeholder}
+**NPI**<br>Norwegian Polar Institute
+:::
+:::
+
+- [PAME](https://pame.is/) — Arctic Council working group on the protection of
+  the Arctic marine environment; host of the MPA Expert Group.
+- [CAFF](https://caff.is/) — Arctic Council working group on Arctic
+  biodiversity; joint partner on the project.
+- [Norwegian Polar Institute](https://www.npolar.no/) — project lead and
+  developer of the ACTAME dashboard.
+- [Arctic SDI](https://arctic-sdi.org/) — circumpolar basemap services used by
+  the map component.
+
+::: {.status-note}
+**Logos.** The boxes above are placeholders. To use the official marks, drop
+the image files into `assets/` (e.g. `assets/logo-pame.png`,
+`assets/logo-caff.png`, `assets/logo-npi.png`) and replace each placeholder
+block in `team.qmd` with `![PAME](assets/logo-pame.png)`.
+:::
+
+## Lineage
+
+The design of ACTAME follows the CCAMLR **Weddell Sea MPA Phase 2** planning
+tool, which paired an open, documented spatial data compendium with an
+interactive interface so that the evidence behind a proposed MPA could be
+inspected directly by everyone involved in the process. ACTAME applies that
+model to the Arctic, under Arctic Council governance.

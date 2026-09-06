@@ -1,0 +1,237 @@
+/*-- scss:defaults --*/
+
+// ACTAME palette — PAME blue, CAFF green, Arctic ice neutrals
+$actame-blue:   #0d74a3;
+$actame-blue-d: #095c82;
+$actame-green:  #1a5c2a;
+$actame-ice:    #eef4f8;
+$actame-ice-2:  #dce8f0;
+$actame-ink:    #22303a;
+$actame-rule:   #e3e8ec;
+
+$primary:       $actame-blue;
+$body-color:    $actame-ink;
+$link-color:    $actame-blue;
+$navbar-bg:     #ffffff;
+$navbar-fg:     $actame-ink;
+$footer-bg:     $actame-ice;
+
+$font-family-sans-serif: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$headings-font-weight: 600;
+$border-radius: 6px;
+
+/*-- scss:rules --*/
+
+// ---------------------------------------------------------------- navbar ----
+
+.navbar {
+  border-bottom: 1px solid $actame-rule;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+.navbar-brand img {
+  height: 34px;
+  width: auto;
+}
+
+.navbar-brand .navbar-title {
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: $actame-blue;
+}
+
+.navbar .nav-link {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+// ------------------------------------------------------------------ hero ----
+
+.hero {
+  background: linear-gradient(160deg, $actame-ice 0%, #ffffff 70%);
+  border-bottom: 1px solid $actame-rule;
+  margin: -1.5rem -1rem 2.5rem -1rem;
+  padding: 3rem 1.5rem 2.5rem 1.5rem;
+}
+
+.hero-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2.5rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.hero-text {
+  flex: 1 1 340px;
+}
+
+.hero-art {
+  flex: 0 1 280px;
+  max-width: 300px;
+}
+
+.hero-art svg {
+  width: 100%;
+  height: auto;
+}
+
+.hero h1 {
+  font-size: 2.6rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: $actame-blue;
+  margin-bottom: 0.25rem;
+}
+
+.hero .hero-expansion {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: $actame-ink;
+  margin-bottom: 1rem;
+}
+
+.hero p.lead {
+  font-size: 1.03rem;
+  line-height: 1.6;
+  color: lighten($actame-ink, 12%);
+}
+
+// ------------------------------------------------------------------ tags ----
+
+.tagline {
+  display: inline-block;
+  background: $actame-blue;
+  color: #ffffff;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  padding: 0.22rem 0.6rem;
+  border-radius: 3px;
+  margin-bottom: 0.9rem;
+}
+
+.tagline.green { background: $actame-green; }
+
+// ----------------------------------------------------------------- cards ----
+
+.card-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1.1rem;
+  margin: 1.6rem 0 2.2rem 0;
+}
+
+.a-card {
+  border: 1px solid $actame-rule;
+  border-radius: $border-radius;
+  border-top: 3px solid $actame-blue;
+  padding: 1.1rem 1.2rem;
+  background: #ffffff;
+}
+
+.a-card.green { border-top-color: $actame-green; }
+
+.a-card h3 {
+  font-size: 1.05rem;
+  margin-top: 0;
+  margin-bottom: 0.45rem;
+  color: $actame-blue;
+}
+
+.a-card.green h3 { color: $actame-green; }
+
+.a-card p { font-size: 0.93rem; margin-bottom: 0; }
+
+.a-card .step {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: lighten($actame-ink, 35%);
+  margin-bottom: 0.2rem;
+}
+
+// -------------------------------------------------------------- callouts ----
+
+.status-note {
+  background: $actame-ice;
+  border-left: 4px solid $actame-blue;
+  border-radius: 0 $border-radius $border-radius 0;
+  padding: 0.9rem 1.1rem;
+  font-size: 0.94rem;
+  margin: 1.6rem 0;
+}
+
+// ------------------------------------------------------ tools listing ----
+
+.quarto-grid-item.card {
+  border: 1px solid $actame-rule !important;
+  border-radius: $border-radius !important;
+  transition: box-shadow 0.15s ease-in-out;
+}
+
+.quarto-grid-item.card:hover {
+  box-shadow: 0 4px 14px rgba(13, 116, 163, 0.13);
+}
+
+.quarto-listing-category .category {
+  font-size: 0.85rem;
+}
+
+.listing-categories .listing-category {
+  background: $actame-ice-2;
+  border: none;
+  color: $actame-blue-d;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding: 0.15rem 0.5rem;
+  border-radius: 3px;
+}
+
+// --------------------------------------------------------------- tables ----
+
+table.table {
+  font-size: 0.93rem;
+}
+
+table.table thead th {
+  border-bottom: 2px solid $actame-blue;
+  color: $actame-blue-d;
+}
+
+// --------------------------------------------------------------- footer ----
+
+.nav-footer {
+  border-top: 1px solid $actame-rule;
+  font-size: 0.85rem;
+}
+
+// -------------------------------------------------------------- partners ----
+
+.partner-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+  margin: 1.4rem 0 2rem 0;
+}
+
+.partner-row img {
+  height: 56px;
+  width: auto;
+}
+
+.partner-placeholder {
+  border: 1px dashed $actame-rule;
+  border-radius: $border-radius;
+  padding: 0.9rem 1.3rem;
+  font-size: 0.85rem;
+  color: lighten($actame-ink, 30%);
+  text-align: center;
+}

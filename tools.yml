@@ -1,0 +1,69 @@
+# ---------------------------------------------------------------------------
+# ACTAME tools listing
+#
+# Every entry below becomes a card on the Tools page. To add a tool, copy the
+# template at the bottom of this file, fill it in, and commit — no other file
+# needs to change.
+#
+# Fields
+#   title        card heading
+#   subtitle     one line under the heading
+#   description  short paragraph (markdown allowed)
+#   path         where the card links to: a repo URL, a live app URL, or a
+#                page in this site (e.g. about.qmd)
+#   image        thumbnail in assets/ (optional; omit for a text-only card)
+#   categories   tags, shown as filter buttons: use one status tag
+#                (Live / In development / Planned) plus any type tags
+#   date         used for sorting; the date the entry was last meaningfully
+#                updated
+#   author       optional, e.g. the lead institution
+# ---------------------------------------------------------------------------
+
+- title: "ACTAME dashboard"
+  subtitle: "Interactive Arctic map, digital atlas and metadatabase"
+  description: >
+    The project's main tool: a Shiny dashboard with a circumpolar map of
+    existing area-based measures and ecological boundaries, an interactive
+    atlas documenting every spatial layer behind the tool, and a searchable
+    metadatabase. Built as an open-source R package.
+  path: "https://github.com/igoreulaers/PAME_MPA_EG_map"
+  image: assets/tool-actame.svg
+  categories: [Shiny app, In development, Phase 2]
+  date: "2026-09-01"
+  author: "Norwegian Polar Institute"
+
+- title: "Arctic ABMT data portal"
+  subtitle: "Published spatial layers and their documentation"
+  description: >
+    The assembled and documented spatial layers behind ACTAME, published so
+    they can be downloaded, cited and reused independently of the dashboard.
+    Part of Phase 2 of the project.
+  path: "about.qmd#phases"
+  image: assets/tool-portal.svg
+  categories: [Data, Planned, Phase 2]
+  date: "2026-09-01"
+
+- title: "Spatial planning application"
+  subtitle: "Prioritisation and scenario analysis"
+  description: >
+    Phase 3 of the project: using the assembled layers for spatial
+    prioritisation and scenario analysis across the pan-Arctic domain,
+    following the approach of the CCAMLR Weddell Sea MPA Phase 2 tool.
+  path: "about.qmd#phases"
+  image: assets/tool-planning.svg
+  categories: [Analysis, Planned, Phase 3]
+  date: "2026-09-01"
+
+# ---------------------------------------------------------------------------
+# Template — copy, uncomment and fill in:
+#
+# - title: "Tool name"
+#   subtitle: "One line on what it is"
+#   description: >
+#     Two or three sentences on what it does and who it is for.
+#   path: "https://github.com/igoreulaers/REPO-NAME"
+#   image: assets/tool-placeholder.svg
+#   categories: [R package, Live, Phase 2]
+#   date: "2026-01-01"
+#   author: "Institution"
+# ---------------------------------------------------------------------------

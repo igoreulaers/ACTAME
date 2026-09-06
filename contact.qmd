@@ -1,0 +1,47 @@
+---
+title: "Contact"
+subtitle: "Getting in touch, contributing, and reuse"
+description-meta: >
+  How to contact the ACTAME project team, contribute layers or corrections, and
+  reuse the tools and data.
+---
+
+## Project contact
+
+**Igor Eulaers** — project lead, Norwegian Polar Institute
+[igor.eulaers@npolar.no](mailto:igor.eulaers@npolar.no)
+
+For questions about the project's mandate and scope, contact the
+[PAME Secretariat](https://pame.is/) or the
+[CAFF Secretariat](https://caff.is/).
+
+## Contributing a layer or a correction
+
+The value of ACTAME depends on the layers in it being right, current and
+properly documented. If you hold a spatial dataset relevant to Arctic
+area-based conservation, or you spot an error in how a layer is described:
+
+1. **Open an issue** on the relevant repository — see the
+   [Tools](tools.qmd) page for links. This is the fastest route for anything
+   concerning the dashboard, the atlas text or the metadata.
+2. **Get in touch directly** if the contribution is a dataset rather than a
+   correction, so that provenance, licensing and the metadata record can be
+   agreed before it is added.
+
+Contributions are credited per layer in the Atlas and Metadata components.
+
+## Reuse and licensing
+
+The ACTAME software is open source; each repository states its licence. The
+content of this website is available under
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+Spatial layers carry the licences of their original providers and are credited
+per entry — check the layer's metadata record before redistributing it.
+
+## Attribution
+
+Basemaps © [Arctic SDI](https://arctic-sdi.org/) and the
+[Norwegian Polar Institute](https://www.npolar.no/). Boundary and area-based
+measure layers are credited to their sources in the Atlas and Metadata
+components of the dashboard.

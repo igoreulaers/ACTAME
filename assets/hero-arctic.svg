@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img"
+     aria-label="Schematic circumpolar map: sea-ice extent, ecological boundaries and area-based conservation measures around the North Pole">
+  <defs>
+    <clipPath id="disc">
+      <circle cx="200" cy="200" r="180"/>
+    </clipPath>
+    <pattern id="ice" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+      <rect width="10" height="10" fill="#ffffff"/>
+      <line x1="0" y1="0" x2="0" y2="10" stroke="#bcd6e6" stroke-width="2.2"/>
+    </pattern>
+    <radialGradient id="ocean" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#f4f9fc"/>
+      <stop offset="100%" stop-color="#d7e7f1"/>
+    </radialGradient>
+  </defs>
+
+  <circle cx="200" cy="200" r="180" fill="url(#ocean)"/>
+
+  <g clip-path="url(#disc)">
+    <path d="M200 42
+             C258 46 300 78 312 128
+             C324 178 306 232 268 268
+             C232 302 172 314 128 292
+             C82 268 58 216 68 164
+             C78 108 132 52 200 42 Z"
+          fill="url(#ice)" opacity="0.95"/>
+    <path d="M200 42
+             C258 46 300 78 312 128
+             C324 178 306 232 268 268
+             C232 302 172 314 128 292
+             C82 268 58 216 68 164
+             C78 108 132 52 200 42 Z"
+          fill="none" stroke="#8fb9d4" stroke-width="1.6"/>
+
+    <g fill="#cfd8d2" stroke="#b3c0b8" stroke-width="1">
+      <path d="M22 210 L92 176 L120 214 L96 268 L30 296 L6 250 Z"/>
+      <path d="M300 40 L376 66 L392 132 L342 158 L292 118 Z"/>
+      <path d="M118 12 L214 4 L246 40 L176 74 L112 56 Z"/>
+      <path d="M232 316 L318 292 L360 330 L300 384 L226 366 Z"/>
+    </g>
+
+    <g stroke="#0d74a3" stroke-width="0.8" opacity="0.28" fill="none">
+      <circle cx="200" cy="200" r="60"/>
+      <circle cx="200" cy="200" r="120"/>
+      <path d="M200 20 V380 M20 200 H380 M73 73 L327 327 M327 73 L73 327"/>
+    </g>
+
+    <circle cx="200" cy="200" r="152" fill="none" stroke="#1a5c2a" stroke-width="2"
+            stroke-dasharray="7 5" opacity="0.75"/>
+
+    <g fill="#1a5c2a" fill-opacity="0.22" stroke="#1a5c2a" stroke-width="1.8">
+      <path d="M150 92 L200 80 L226 112 L192 142 L146 128 Z"/>
+      <path d="M258 176 L306 168 L318 206 L282 226 L252 206 Z"/>
+      <path d="M104 214 L146 206 L160 244 L122 262 L96 244 Z"/>
+      <ellipse cx="212" cy="272" rx="34" ry="24"/>
+    </g>
+
+    <g stroke="#0d74a3" stroke-width="0.7" opacity="0.2">
+      <path d="M140 140 H260 M140 170 H260 M140 200 H260 M140 230 H260 M140 260 H260
+               M140 140 V260 M170 140 V260 M200 140 V260 M230 140 V260 M260 140 V260"/>
+    </g>
+  </g>
+
+  <circle cx="200" cy="200" r="4.5" fill="#0d74a3"/>
+  <circle cx="200" cy="200" r="180" fill="none" stroke="#0d74a3" stroke-width="3"/>
+</svg>

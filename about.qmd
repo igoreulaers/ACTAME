@@ -1,0 +1,122 @@
+---
+title: "About the project"
+subtitle: "A pan-Arctic planning tool for area-based conservation measures"
+description-meta: >
+  Background, objectives, approach and phases of the joint PAME/CAFF project
+  developing the ACTAME pan-Arctic area-based conservation planning tool.
+---
+
+## Context
+
+Area-based measures are the main instrument states have for conserving marine
+biodiversity in place: marine protected areas (MPAs), other effective area-based
+conservation measures (OECMs), fisheries closures, shipping measures and the
+wider family of area-based management tools (ABMTs). In the Arctic they are
+established under a mix of national jurisdiction, regional bodies and global
+frameworks, and they have grown up piecemeal — measure by measure, sector by
+sector, country by country.
+
+Two things have changed the demand on that patchwork. First, the
+Kunming-Montreal Global Biodiversity Framework's Target 3 commits parties to
+effectively conserving and managing 30% of coastal and marine areas by 2030,
+through ecologically representative, well-connected systems of protected areas
+and OECMs. Second, the Arctic itself is changing: sea ice, the habitat that
+structures much of the region's biodiversity, is retreating and thinning, and
+the distributions built around it are shifting.
+
+Together these make a pan-Arctic, evidence-based view of area-based measures —
+what exists, what it covers, and where the gaps are against ecological
+objectives — a practical necessity rather than an academic exercise.
+
+## The project
+
+ACTAME (**A**rctic **C**onservation **T**ool for **A**rea-based **M**easures
+and **E**cosystems) is the tool being developed by the joint PAME/CAFF project
+running from 2025 to 2027. It is carried out under the PAME Marine Protected
+Areas Expert Group (MPA-EG), jointly with CAFF, and led by the Norwegian Polar
+Institute.
+
+The project's aim is to give the Arctic Council working groups, national
+authorities and the wider Arctic research and management community a shared,
+documented spatial basis for discussing where area-based conservation measures
+should go — and to make the evidence behind that discussion open, traceable and
+reusable.
+
+The first case study is on **sea-ice-dependent species**: the group for which
+the link between a physical driver, a habitat and a conservation objective is
+most direct, and for which a spatial planning approach has the clearest
+near-term value.
+
+## Approach
+
+ACTAME builds on the approach taken by the CCAMLR **Weddell Sea MPA Phase 2**
+(WSMPA2) planning tool, which paired an open spatial data compendium with an
+interactive interface so that the evidence underpinning a proposed MPA could be
+inspected by anyone taking part in the negotiation. ACTAME applies that model to
+the Arctic:
+
+- **Document everything.** Each spatial layer carries its own record — the
+  conservation objective it speaks to, its resolution, coverage and period, the
+  analysis behind it, and its source.
+- **Separate data from interface.** The atlas is generated from a metadata
+  table, not hand-written, so that adding or revising a layer is a data edit
+  rather than a redesign.
+- **Work in the open.** The dashboard is an open-source R package; the layers
+  and their documentation are published alongside it.
+- **Build for the circumpolar view.** The map works in the polar projections
+  the Arctic is actually mapped in, so that pan-Arctic patterns are visible
+  without the distortions of a global projection.
+
+## Components
+
+| Component | What it provides |
+|---|---|
+| **Atlas** | An interactive compendium of the spatial layers: what each shows, why it matters, how it was made, and the maps themselves. Filter by objective or layer group, or search the full text. |
+| **Map** | An interactive circumpolar map with area-based measures and ecological boundaries as toggleable layers — Large Marine Ecosystems, the CAFF boundary, Exclusive Economic Zones, Ecologically or Biologically Significant Areas and Marine Protected Areas. |
+| **Metadata** | The same layer documentation as a searchable, sortable and downloadable table, so layers can be traced, cited and reused outside the tool. |
+
+: {tbl-colwidths="[20,80]"}
+
+The circumpolar basemaps come from the [Arctic SDI](https://arctic-sdi.org/)
+and the Norwegian Polar Institute, in six North Pole LAEA projections and polar
+stereographic respectively.
+
+## Phases
+
+::: {.card-row}
+::: {.a-card .green}
+[Phase 1]{.step}
+
+### Horizon scan and scoping
+Identifying the conservation objectives the tool should support and the spatial
+layers needed to support them — the scoping exercise that determines what the
+atlas must contain.
+:::
+
+::: {.a-card .green}
+[Phase 2]{.step}
+
+### Data portal and atlas
+Assembling, documenting and publishing the layers, and building the interface
+through which they can be inspected. This is the phase the ACTAME dashboard
+belongs to.
+:::
+
+::: {.a-card .green}
+[Phase 3]{.step}
+
+### Spatial planning application
+Using the assembled layers for prioritisation and scenario analysis across the
+pan-Arctic domain — moving from *what is known* to *what follows from it*.
+:::
+:::
+
+## Status
+
+::: {.status-note}
+**Early build.** The Map component runs on real data. The Atlas and Metadata
+components carry a placeholder skeleton — a small set of example entries and
+schematic figures — so that the structure can be reviewed before the project's
+own layers are available. Milestones and releases will be posted on the
+[Tools](tools.qmd) and [Outputs](publications.qmd) pages.
+:::
