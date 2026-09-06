@@ -29,6 +29,10 @@ jobs:
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
+        with:
+          # Turns Pages on and points it at this workflow, so the site
+          # publishes even if Settings -> Pages was never touched by hand.
+          enablement: true
 
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
